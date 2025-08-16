@@ -7,6 +7,7 @@
 // "12345"  -->  false
 // "a234"   -->  false
 
+
 function validatePIN(pin) {
   //return true or false
     if (typeof pin !== "string") { //checks to make sure pin is a str type
@@ -23,3 +24,10 @@ console.log(validatePIN(6666)); //Output: PIN must be a STRING type. Please re-e
 console.log(validatePIN("6666")); //Output: true, 4 digits
 console.log(validatePIN("666a6")); //Output: false, 5 digits
 console.log(validatePIN("p666a6")); //Output: true, 6 digits
+
+
+
+
+//Thoughts
+//Personally feel like this can be more of a level 8kyu problem. No notable comments for this other than it was actually way easier than
+//I thought.
